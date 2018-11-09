@@ -5,3 +5,7 @@ function params() {
   });
   return vars;
 }
+
+function everythingIsOkay() {
+  return document.getElementsByName("PnrOrETicketNo") && params().pnr && params().surname;
+}
