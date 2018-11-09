@@ -6,6 +6,10 @@
   "icons": {
     "16": "16.png",
     "128": "128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   }
 }
 
